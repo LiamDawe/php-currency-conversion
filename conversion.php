@@ -11,7 +11,7 @@ function currency($from, $to, $amount)
 
    return str_replace(' '.$to, '', $result);
 }
-?>
-
 // run it like this
 currency('USD', 'GBP', 1);
+
+?>
